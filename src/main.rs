@@ -1,3 +1,5 @@
+use rust_graphics_play::run;
+
 fn main() {
-    println!("Hello World from Rust!");
+    run().unwrap();
 }
