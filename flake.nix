@@ -38,9 +38,14 @@
               nickel
               mask
 
-              # Rust
+              # Rust (latest stable)
               rustc
               cargo
+              rust-analyzer
+              
+              # Additional tools for development
+              wasm-pack
+              nodejs
             ];
 
             shellHook = ''
